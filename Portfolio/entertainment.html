@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-eqiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+		
+		<!-- Bootstrap CSS -->
+				<link rel="stylesheet" href="css/bootstrap.min.css">
+			<!-- Style Sheet -->
+				<link rel="stylesheet" href="css/ent.css">	
+    </head>
+    <body> 
+		<!-- ================= **Header Part Starts** ===================== -->	 
+		 <header>
+			<!-- ================= **Navbar Starts Here** ===================== -->
+		 <nav class="navbar navbar-expand-lg  fixed-top" id="top-nav">
+			<a class="navbar-brand d-flex mx-5" href="#">
+			<img src="images/logo.png" style="width:120px;
+					height: 100px;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span><i class="fas fa-bars toggle-icon"></i></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+			  <ul class="navbar-nav ml-auto">
+					<li class="nav-item ">
+					  <a class="nav-link mx-2" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-capitalize mx-2" href="menu.html"> Our Menu</a> 
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-capitalize mx-2" href="special.html">Today's Special</a> 
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-capitalize mx-2" href="contact.html">Contact Us</a> 
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link text-capitalize mx-2" href="entertainment.html">Entertainment</a> 
+					  </li>
+					<a href="signUp.html">
+						<button class="btn " id="sbtn"> Sign Up</button>
+					</a>
+			  </ul>
+			</div>
+		  </nav>
+		   <!-- ================= //Navbar Ends Here// ===================== -->
+		  </header>
+	
+	
+	<section class="main-section">
+	
+	<div class="container-1">
+
+	<h2>Challenge 1:Your Age in Days</h2>
+	<hr class="mx-auto w-50">
+	
+	<div class="flex-box-container-1">
+	
+	<div>
+			<button class="btn btn-success" onclick="ageInDays()">Click Me</button>
+	</div>
+	
+	<div>
+		<button class="btn btn-danger" onclick="reset()">Reset</button>
+	</div>
+  </div>
+  <div class="flex-box-container-1">
+	 <div id="flex-box-result">
+		
+		
+	</div>
+  </div>
+</div>	
+
+<div class="container-2">
+	<h2>Challenge 2 : Cat Generator</h2>
+	<hr class="mx-auto w-50">
+	<button class="btn btn-success" id="cat-gen" onclick="generateCat()">Generate Cat</button>
+	<div class="flex-box-container-2" id="flex-cat-gen">
+	</div>
+
+</div>
+
+<div class="container-3">
+	<h2>Challenge 3: Rock,Paper,Scissors</h2>
+	<hr class="mx-auto w-50">
+	<div class="flex-box-rps" id="flex-box-rps-div">
+		<img id="rock" src="images/2.jpg" height=150 width=150 onclick="rpsGame(this)">
+		<img id="paper" src="images/1.jpg" height=150 width=150 onclick="rpsGame(this)">
+		<img id="scissors" src="images/3.jpg" height=150 width=150 onclick="rpsGame(this)">
+	</div>
+
+
+</div>
+
+</section>
+	
+
+
+ 
+	<script src="js/popper.min.js"></script>
+	<script src="js/jquery-3.5.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ent.js"> </script> 
+    </body>
+	</html>

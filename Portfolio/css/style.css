@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Lobster&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-family:sans-serif;
+	
+}
+.container{
+	width:1100px;
+	margin:auto;
+	overflow:hidden;
+	
+}
+section{
+	padding-top:80px;
+	padding-bottom:60px;
+}
+
+ /* ========== Navbar Part ============ */   
+#top-nav{
+	color:white;
+	transition:0.6s ease;
+}
+#top-nav ul li{
+	padding:5px;
+}
+#top-nav ul li a{
+	font-size:1.2rem;
+
+}
+#top-nav h2{
+	color:white;
+}
+#sbtn{
+	background-color:#9933ec;
+	border-radius: 5px;
+    font-size: 1.3rem;
+	color:white;
+	padding: 20px;
+}
+#sbtn:hover{
+	background-color:#5a1294;
+	color:white;
+}
+.nav-link{
+	color:white;
+	margin:10px;
+	border-radius:5px;
+	transition:.4s;
+}
+.nav-link:hover{
+	background-color:#811bd4;
+	color:white;
+	transform:scale(1.1);
+}
+.active a{
+	background-color:blue;
+	color:white;
+	padding: 14px!important;
+}
+.toggle-icon{
+	color:white;
+}
+.scrolled{
+	background-color: #0792ec;
+}
+.scrolled li a{
+	color:rgb(22, 18, 18);
+}
+ /* ========== Company Part ============ */   
+.site-headers{
+	width:100%;
+	height:100vh;
+	background: rgb(25,108,163);
+	background: linear-gradient(0deg, rgba(25,108,163,1) 30%, rgba(21,215,198,1) 94%);
+	clip-path:polygon(0% 0% ,100% 0%, 100% 80%, 0% 100%);
+}
+.left-side{
+	margin-top:60px;
+}
+
+.right-side h1{
+	color:white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.right-side p{
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+#headers-btn{
+	background-color:#7f09de;
+	 border-radius: 5px;
+    font-size: 1.6rem;
+	color:white;
+	padding: 15px;
+}
+#headers-btn:hover{
+	background-color:#603088;
+	color:white;
+}
+
+/* ============== About Part =============   */
+
+
+
+#about h1{
+	color:#025a4a;
+	font-family:  'Domine', serif;	
+}
+#about h5{
+  color:#4e225d;
+  font-family: 'Domine', serif;	
+  font-size:1.6rem;
+}
+#about p{
+	color:#7c8586;
+}
+#btn2{
+	background-color:#7f09de;
+	border-radius: 10px;
+    font-size: 1.6rem;
+	color:white;
+	padding: 18px;
+}
+#btn2:hover{
+	background-color:#0c81c5;
+}
+.abt-img{
+	transition:.4s;
+}
+.abt-img:hover{
+	transform:scale(1.03);
+	box-shadow: 1px 1px 2px black; 
+}
+#abtshow{
+	display:none;
+}
+#abtshow1{
+	display:none;
+	font-size:1.2rem;
+	color:#025a4a;
+	font-family:  'Domine', serif;	
+}
+
+/* =================== Popular-Items Part =============== */
+.one, .two , .three{
+	color:#025a4a;
+}
+
+#popular-items h2{
+	color:#025a4a;
+	font-family:  'Domine', serif;	
+}
+/* ========== Card Items Part =============== */
+.card-body {
+    background-color:#ccf3f2;
+}
+.card-title {
+    color:#000000;
+	font-size: 1.9rem;
+}
+.card-text{
+	font-size:1.1rem;
+	color:#000000;
+}
+.card{
+    border: 2px solid #8923dc40;
+	transition:.4s;
+}
+.card:hover{
+	transform:scale(1.01);
+	box-shadow: 2px 2px 5px black; 
+}
+#card-button{
+	background-color:#9933ec;
+	color:white;
+}
+
+/* =========== Todays-Special Part ============== */
+#special i{
+  font-size:1.8rem;
+  color: #025a4a;
+}
+#special h2 {
+	color:#025a4a;
+	font-family:  'Domine', serif;	
+}
+:root{
+	--div-height : 90vh;
+}
+.center_div .top_div{
+	  height:calc(var(--div-height) - 45vh);
+	  
+}
+}
+.center_div .middle_first_div{
+	  height:calc(var(--div-height) - 30vh);
+}
+.center_div .middle_sec_div{
+	  height:calc(var(--div-height) - 60vh);
+}
+
+.center_div .bottom_first_div{
+	  height:calc(var(--div-height) - 60vh);
+} 
+.center_div .bottom_sec_div{
+	height:calc(var(--div-height) - 30vh);
+}
+.myimg{
+border: 1px solid #948ebb5c;
+transition: 1.1s all;
+cursor: pointer;
+}
+.myimg:hover{
+	
+	box-shadow: 2px 2px 20px 5px rgb(98, 122, 98);
+	transform: translateX(5px);
+}
+/* ============== Daily Menu Part =================== */
+#daily-menu h2{
+	color:#025a4a;
+	font-family:  'Domine', serif;	
+}
+#daily-menu p{
+	color:#54716c;
+	font-family:  'Domine', serif;	
+}
+#daily-menu ol li{
+		color:#460505;
+		font-family:  'Domine', serif;	
+		font-size:1.3rem;
+}
+#dl-btn{
+	background-color:#7f09de;
+	border-radius: 5px;
+    font-size: 1.6rem;
+	color:white;
+	padding: 15px;
+}
+#dl-btn:hover{
+	background-color:#0c81c5;
+}
+.dm-btn{
+	display:none;
+	color:#460505;
+	font-family:  'Domine', serif;	
+}
+.dm-btn1{
+	display:none;
+	color:#460505;
+	font-family:  'Domine', serif;	
+}
+
+
+/* ================= Contact part ================== */
+#contact{
+	background: rgb(25,108,163);
+	background: linear-gradient(0deg, rgba(25,108,163,1) 30%, rgba(21,215,198,1) 94%);
+}
+#contact h2{
+	color:white;
+	font-family: 'Open Sans', sans-serif;	
+}
+#contact p{
+	color:white;
+}
+.contact-nav ul li {
+	color:white;
+}
+.contact-nav ul li a{
+	color:white;
+	text-transform:uppercase;
+
+}		
+#contact i {
+    height: 40px;
+    width: 40px;
+    padding-top: 7px;
+    text-align: center;
+    color: #3c1515;
+    font-size: 1.5rem;
+    margin: 3px;
+    background-color: white;
+}
+#contact i:hover{
+	color:#dbd2d2;
+	 background-color:#084458;
+}
+/* ==== */
+#upper {
+   background-color: black;
+    position: fixed;
+    right: 5px;
+    bottom: 15px;
+    height: 35px;
+    width: 40px;
+    text-align: center;
+    padding-top: 6px;
+	display:none;
+}
+#upper i{
+	font-size:1rem;
+	color:white;
+}
+
+ /* ====== Footer part======== */
+footer{
+	background-color:#021d38;
+	padding:1px;
+}
+footer p{
+   color:white;
+   margin-top:20px;
+   font-size: 1.2rem;
+}
+#arrow{
+   font-size:1.3rem;
+}
+/* =========== Device View  ================ */
+@media screen and (max-width: 991px) {
+	/* =========== Navbar  ================ */
+	#top-nav{
+	background-color:#0d4a3e;
+	}
+	#top-nav ul li a{
+	color:white;
+	}
+	
+	
+	 /* ========== Company Part ============ */   
+	.left-side{
+		margin-top:200px;
+	}
+	  
+	}
+@media screen and (max-width: 576px) {
+	
+	  .container{
+		  max-width:450px;
+	  }
+}
+
+
